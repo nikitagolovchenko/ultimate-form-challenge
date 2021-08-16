@@ -7,6 +7,8 @@
 
 **yup** - валидация
 
+**@hookform/resolvers** - подключение yup к react-hook-form
+
 **@material-ui/core @material-ui/icons** - ui-компоненты
 
 **libphonenumber-js** - нормализация телефонного номера
