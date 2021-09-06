@@ -8,11 +8,11 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-const PrimaryButton = ({children, props}) => {
+const PrimaryButton = ({children, color = 'primary', component, onClick, to, props}) => {
   const classes = useStyles();
 
   return (
-    <Button className={classes.root} type='submit' variant="contained" fullWidth color="primary" {...props}>
+    <Button className={classes.root} type='submit' variant="contained" fullWidth color={color} onClick={onClick} {...props} component={component} to={to}>
       {children}
     </Button>
   );

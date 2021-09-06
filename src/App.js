@@ -1,11 +1,10 @@
 import { ThemeProvider, CssBaseline } from '@material-ui/core';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Header from './components/Header';
 import Step1 from './Step1';
 import Step2 from './Step2';
-
-const Step3 = () => <>Step 3</>;
-const Result = () => <>Result</>;
+import Step3 from './Step3';
+import Result from './Result';
 
 function App() {
   return (
